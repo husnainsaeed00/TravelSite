@@ -1,0 +1,97 @@
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height:60px;
+  background: #F55A5A;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.085px;
+}
+.logo>.logo-icon{
+  width:30px;
+  height:30px;
+  margin-right: 5px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card{
+  height:300px;
+  width:400px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin:20px auto;
+  padding:9px 9px;
+  border-bottom: 2px solid rgb(238, 232, 232);
+
+}
+.card>.card-img{
+  width:50%;
+  height:auto;
+  border-radius:20px;
+}
+.card>.card-desc{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.card-desc>.location{
+  height:50px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  color: #2B283A;
+}
+.location>.location-icon{
+  width:20px;
+  height: auto;
+}
+.location>.card-country{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 16.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.741px;
+}
+.card-title{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: normal;
+}
+
+.date{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom:9px;
+  line-height: normal;
+}
+.card-text{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+}
